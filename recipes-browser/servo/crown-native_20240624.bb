@@ -9,8 +9,6 @@ require servo-common.inc
 
 DEPENDS += "cargo-native rust-native" 
 
-# libgcc
-
 S = "${WORKDIR}/git"
 
 CARGO_BUILD_FLAGS = "--frozen --target ${RUST_BUILD_SYS}"

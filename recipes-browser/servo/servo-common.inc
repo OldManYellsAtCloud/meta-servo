@@ -23,13 +23,13 @@ SRC_URI += "git://git@github.com/servo/servo.git;branch=main;protocol=https \
             file://0001-Build-mozangle-with-TARGET_CXXFLAGS.patch;patchdir=${WORKDIR}/cargo_home \
             file://0001-Use-TARGET_CXXFLAGS-to-build-mozjs.patch;patchdir=${WORKDIR}/mozjs"
 
-SRCREV = "b178a2b6e2312a74f4a72781789c45a31ac164a7"
+SRCREV = "680735ed734bfce72a171d25f44a1ac658ca6838"
 
 SRCREV_FORMAT .= "_media"
 SRCREV_media = "45756bef67037ade0f4f0125d579fdc3f3d457c8"
 
 SRCREV_FORMAT .= "_stylo"
-SRCREV_stylo = "039959da0beac876128b86fa4b80908d8e55fbaf"
+SRCREV_stylo = "ffcfaf677d5c3af35999641ae90e80ee4f4e42d6"
 
 SRCREV_FORMAT .= "_webxr"
 SRCREV_webxr = "88fd368d1cc110db0f6f5000de2e22a14c9423b5"
@@ -44,7 +44,7 @@ SRCREV_FORMAT .= "_wgpu"
 SRCREV_wgpu = "d0a5e48aa7e84683114c3870051cc414ae92ac03"
 
 SRCREV_FORMAT .= "_mozjs"
-SRCREV_mozjs = "df2365facf1b8cf3cd142ed384cef42bb474f6a1"
+SRCREV_mozjs = "369f2902e6481b8f237cca1652f56e61f508a0ad"
 
 SRCREV_FORMAT .= "_webrender"
 SRCREV_webrender = "9d354adf8955b1390dd56db89e6d5a9ea7880391"
@@ -68,7 +68,6 @@ python saveSrcUri(){
   for uri in all_uris:
     if not uri.startswith("git://"):
       uris_without_git += " " + uri
-      continue
 
   d.setVar("SRC_URI", uris_without_git)
 }

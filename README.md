@@ -44,11 +44,11 @@ This supposed to be just a reminder for me, where are the magic commits in the r
 
 | Resource | Commit | Source of commit |
 | -------- | ------ | ---------------- |
-| stylo | 039959da0beac876128b86fa4b80908d8e55fbaf | This is the `HEAD` of `2024-05-15` branch (at the time of writing this), which is referenced by the top level Cargo.toml |
+| stylo | ffcfaf677d5c3af35999641ae90e80ee4f4e42d6 | This is the `HEAD` of `2024-05-15` branch (at the time of writing this), which is referenced by the top level Cargo.toml |
 | media | 45756bef67037ade0f4f0125d579fdc3f3d457c8 | This is the `HEAD` of `main` branch (at this time), which is referenced by the top level Cargo.toml |
 | webrender | 9d354adf8955b1390dd56db89e6d5a9ea7880391 | This is the `HEAD` of `0.64` branch currently, which is referenced by top level Cargo.toml |
 | wgpu | d0a5e48aa7e84683114c3870051cc414ae92ac03 | Commit referenced by top level Cargo.toml |
 | webxr | 88fd368d1cc110db0f6f5000de2e22a14c9423b5 | This is the `HEAD` of `main` branch, which is referenced by a number of Cargo.toml files, e.g ./components/canvas/Cargo.toml or ./components/script/Cargo.toml |
-| fontsan | 8fbc406506cfd1f8ab60e625d1e926a0e72e1d8a | This is the `HEAD` of `main` branch, which is referenced by ./components/gfx/Cargo.toml |
+| fontsan | 8fbc406506cfd1f8ab60e625d1e926a0e72e1d8a | This is the `HEAD` of `main` branch, which is referenced by ./components/fonts/Cargo.toml |
 | signpost | 7ed712507f343c38646b9d1fefd049166f9c9a18 | This is the `HEAD` of `master` branch, which is referenced by ./components/shared/profile/Cargo.toml |
-| mozjs | df2365facf1b8cf3cd142ed384cef42bb474f6a1 | This is the `HEAD` of `main` branch, which is referenced by ./components/script/Cargo.toml |
+| mozjs | 369f2902e6481b8f237cca1652f56e61f508a0ad | This is the `HEAD` of `main` branch, which is referenced by ./components/script/Cargo.toml |
